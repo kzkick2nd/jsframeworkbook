@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:dev": "webpack --mode development",
-    "build:prd": "webpack --mode production"
+    "build:prd": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --hot --inline --open"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +27,7 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "^2.1.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
-    "style-loader": "^0.23.1"
+    "style-loader": "^0.23.1",
+    "webpack-dev-server": "^3.1.14"
   }
 }
